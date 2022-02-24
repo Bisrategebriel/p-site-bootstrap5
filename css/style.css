@@ -1,0 +1,219 @@
+/* Self CSS3 Reset Styling */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* scroll bar */
+::-webkit-scrollbar{
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background: #2d3646;
+    /* border-radius: 50px; */
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #334155;
+  }
+  ::-webkit-scrollbar-track{
+    background: white;
+  }
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+	vertical-align:middle;
+}
+/* #202334 */
+/* header */
+nav{
+	transition: background 300ms ease-in-out;
+}
+.bg-research{
+	background: #1e293b;
+}
+.bg-research.scrolled {
+	background: #323C4C !important;
+}
+.bottom-decor-line:hover{
+	border-bottom: 2px solid #FFB43A;
+}
+.nav-link i{
+	font-size: 1.5rem;
+}
+.hero-section {
+	margin-top: 50px;
+	box-sizing: border-box;
+	/* border: 1px solid red; */
+	background: #1e293b;
+	height: 84vh;
+	position: relative;
+}
+.hero-section::after{
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	background: inherit;
+	bottom: 0;
+	z-index: -1;
+	content: '';
+}
+#skewed-container::after {
+	transform-origin: right bottom;
+	transform: skewY(-3deg);
+}
+.greeting{
+	color: white;
+	margin-top: 160px;
+}
+.mini-greeting {
+	font-size: 1.3rem;
+}
+.greet-with-name{
+	font-size: 3.7rem;
+	font-weight: 400;
+	background-color: #FFB43A;
+	text-align: center;
+	border-radius: 2px;
+}
+.best-role-tags {
+	font-size: 1.5rem;
+}
+.call-to-action{
+	display: flex;
+	gap: 20px;
+}
+.btn-explore{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 0.9rem;
+	width: 150px;
+	height: 50px;
+	margin-top: 1.4rem;
+	background: #3B3E4D;
+	color: white;
+	border: 1px solid #FFB43A;
+	text-transform: uppercase;
+}
+.btn-explore:hover {
+	background-color: #FFB43A;
+}
+.watch-showreel{
+	width: 200px;
+}
+.hero-image {
+	width: 570px;
+	left: 50px;
+}
+.shape-and-decor{
+	border: 1px solid orange;
+}
+.hero-section-shape-decor{
+	position: absolute;
+	width: 540px;
+	height: 450px;
+	background: #FFB43A;
+	top: 140px;
+	left: 70px;
+	border-radius: 50% 50% 30% 30%;
+}
