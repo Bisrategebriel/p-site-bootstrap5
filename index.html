@@ -19,6 +19,10 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./images/my_logo.png" type="image/x-icon" />
   </head>
@@ -246,7 +250,57 @@
     <!-- end of about  -->
 
     <!-- portfolio -->
-
+    <section class="portfolio" id="skewed-portfolio-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12">
+            <h1 class="p-section-title mt-2 mb-2">Port<span>folio</span></h1>
+            <h3 class="p-section-subtitle mt-2">My latest projects</h3>
+            <div class="carousel-slider">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="./images/justice-league.jpg" alt="" />
+                    <div class="slide-content">
+                      <h2>Betty Fashion</h2>
+                      <p>Modern Business Card Design for a Fashion Brand</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/pixxet.png" alt="" />
+                    <div class="slide-content">
+                      <h2>Pixet</h2>
+                      <p>Logo design for a stock photography platform.</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/spider-man.jpg" alt="" />
+                    <div class="slide-content">
+                      <h2>Spider-Man: Far from Home</h2>
+                      <p>
+                        Following the events of Avengers: Endgame (2019),
+                        Spider-Man must step up to take on new threats in a
+                        world that has changed forever.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./images/thor-ragnarok.jpg" alt="" />
+                    <div class="slide-content">
+                      <h2>Ecommerce</h2>
+                      <p>Explore the 3D virtual world of intuitive ecommerce</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- end of portfolio -->
 
     <!-- skills and services -->
@@ -273,6 +327,7 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="./js/app.js"></script>
     <script>
       $(window).scroll(function () {
