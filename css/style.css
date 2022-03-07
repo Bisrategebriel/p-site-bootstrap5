@@ -304,7 +304,7 @@ nav{
 	box-sizing: border-box;
 	/* border: 1px solid red; */
 	background: #1e293b;
-	height: 130vh;
+	height: 100vh;
 	position: relative;
 	/* z-index: -10; */
 }
@@ -413,4 +413,60 @@ nav{
 .swiper-button-prev, .swiper-button-next{
 	color: white;
 	font-weight: 550;
+}
+
+/* stat */
+.stat {
+	width: 100%;
+	height: 60vh;
+	background: url(../images/ConfettiPapaer.svg), white;
+	background-size: cover;
+	background-position: center;
+	margin-top: 150px;
+}
+.stat-title{
+	margin-top: 80px;
+	margin-bottom: 50px;
+	font-weight: 350;
+	font-size: 2.1rem;
+	text-align: center;
+}
+.stat-title span{
+	color: #FFB43A;
+}
+.stats{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 150px;
+}
+.client-stat, .project-stat, .software-projects-stat, .graphic-projects-stat{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.client-stat-icon-container, .project-stat-icon-container, .software-projects-stat-icon-container, .graphic-projects-stat-icon-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FFB43A;
+	width: 120px;
+	height: 120px;
+	padding: 20px;
+	border-radius: 50%;
+}
+.client-stat-icon-container i, .project-stat-icon-container i, .software-projects-stat-icon-container i, .graphic-projects-stat-icon-container i{
+	font-size: 3rem;
+	color: #202334;
+}
+.client-stat h3, .client-stat p, .project-stat h3, .project-stat p, .software-projects-stat h3, .software-projects-stat p, .graphic-projects-stat h3, .graphic-projects-stat p{
+	color: #202334;
+}
+.client-stat h3, .project-stat h3, .software-projects-stat h3, .graphic-projects-stat h3{
+	font-size: 2rem;
+}
+.client-stat p, .project-stat p, .software-projects-stat p, .graphic-projects-stat p{
+	font-size: 1rem;
+	text-align: center;
 }
