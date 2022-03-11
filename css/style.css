@@ -128,7 +128,7 @@ hr {
 input, select {
 	vertical-align:middle;
 }
-/* #202334 */
+
 /* header */
 nav{
 	transition: background 300ms ease-in-out;
@@ -422,7 +422,7 @@ nav{
 	background: url(../images/ConfettiPapaer.svg), white;
 	background-size: cover;
 	background-position: center;
-	margin-top: 150px;
+	margin-top: 140px;
 }
 .stat-title{
 	margin-top: 80px;
@@ -433,6 +433,7 @@ nav{
 }
 .stat-title span{
 	color: #FFB43A;
+	font-weight: bolder;
 }
 .stats{
 	display: flex;
@@ -469,4 +470,137 @@ nav{
 .client-stat p, .project-stat p, .software-projects-stat p, .graphic-projects-stat p{
 	font-size: 1rem;
 	text-align: center;
+}
+
+/* skills */
+.skills-title, .skills-subtitle{
+	text-align: center;
+}
+.skills-title{
+	font-size: 2.1rem;
+	font-weight: 350;
+	margin-top: 60px;
+}
+.skills-title span {
+	color: #FFB43A;
+	font-weight: bolder;
+}
+.skills-subtitle{
+	font-size: 2.5rem;
+	margin-bottom: 65px;
+}
+.my-working-stacks{
+	width: 72%;
+	margin: auto;
+	display: flex;
+	flex-flow: row wrap;
+	gap: 60px;
+}
+.my-working-stacks i{
+	font-size: 7rem;
+}
+.my-working-stacks img{
+	width: 6rem;
+	height: 6rem;
+	margin-right: 10px;
+}
+
+/* services */
+
+/* contact */
+.contact{
+	width: 100%;
+	height: 85vh;
+	background-color: #202334;
+	margin-top: 30px;
+}
+.contact-title, .contact-subtitle{
+	color: white;
+	text-align: center;
+}
+.contact-title{
+	font-size: 1.5rem;
+	font-weight: 350;
+	padding-top: 30px;
+}
+.contact-subtitle{
+	font-size: 2.1rem;
+}
+.client-contact-form{
+	width: 90%;
+	display: flex;
+	flex-flow: column nowrap;
+	gap: 10px;
+	margin-top: 100px;
+}
+#email, #phoneNumber{
+	height: 3.2rem;
+}
+#submitForm{
+	width: 100px;
+	align-self: flex-end;
+}
+.availability-title{
+	font-size: 1.7rem;
+	color: white;
+	margin-top: 100px;
+}
+.other-social-media-links{
+	width: 80%;
+	display: flex;
+	flex-flow: row wrap;
+	gap: 30px;
+	margin-top: 20px;
+}
+.other-social-media-links i{
+	font-size: 5rem;
+}
+.instagram{
+	color: #E4405F;
+}
+.twitter{
+	color: #1DA1F2;
+}
+.dribbble{
+	color: #EA4C89;
+}
+.skype{
+	color: #00AFF0;
+}
+.telegram{
+	color: #26A5E4;
+}
+.github{
+	color: white;
+}
+.instagram:hover, .twitter:hover, .dribbble:hover, .skype:hover, .telegram:hover, .github:hover{
+	opacity: .8;
+}
+.legal{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+.legal a{
+	text-decoration: none;
+	color: white;
+}
+.legal a:hover{
+	color: #FFB43A;
+}
+
+/* footer */
+footer{
+	background: linear-gradient(to bottom, #1f2130 80%, white);
+	height: 40px;
+}
+.credit{
+	color: white;
+	text-align: center;
+	padding-top: .8rem;
+}
+.credit a{
+	text-decoration: none;
+	color: #FFB43A;
 }
